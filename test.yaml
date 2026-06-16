@@ -1,11 +1,11 @@
 
-name: CI  # -- Tells the information about the pipeline e.g Terraform-Workflow
+name: First_GHActions # -- Tells the information about the pipeline e.g Terraform-Workflow
 
 # Controls when the workflow will run
 on:      # which decides when this workflowwith run
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" or "feature/103" ] #--- When anyone code commits to main branch
+    branches: [ "main" ] #--- When anyone code commits to main branch
 
   pull_request:
     branches: [ "main" ] # --- #--- When anyone raise the Pull request to main branch or feature branch
